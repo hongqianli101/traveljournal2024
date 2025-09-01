@@ -2,7 +2,7 @@ let topTitleDiv = "<h4></h4>";
 
 let titleDiv = "<h1>A Year in Motion: My 2024 Travel Map</h1>";
 
-let bylineDiv = "<p>By Hongqian Li</p>";
+let bylineDiv = "<p><a href='https://www.lihongqian.com' target='_blank' style='color:blue; text-decoration:underline;'>By Hongqian Li</a></p>";
 
 let descriptionDiv =
   "<p>This data journal draws on the geotags of my iPhone photos from 2024, organized by day, to figure out what these digital breadcrumbs can really tell us about our mobility patterns, habits, our favorite spots, and even maybe the boundaries we set for ourselves without realizing it.</p>"+
