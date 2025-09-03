@@ -31,33 +31,33 @@ function getRandomColorCombo() {
 const routeDefinitions = {
   "brooklynView": {
     startPoint: [-74.009, 40.73929], // Little Island
-    endPoint: [-74.00265729788222, 40.753979288448384], // High Line/Vessel area 40.753979288448384, -74.00265729788222
+    endPoint: [-74.00265729788222, 40.75359288448384], // High Line/Vessel area 40.753979288448384, -74.00265729788222
     startZoom: 16,
     endZoom: 18,
     startPitch: 60,
-    endPitch: 60,
+    endPitch: 80,
     startBearing: 80,
     endBearing: 120
   },
   "walliamsburg": {
-    startPoint: [-73.95617909755282, 40.71732706429272], // Williamsburg start
+    startPoint: [-73.95091299420689, 40.72392275101301], // Williamsburg start 40.72392275101301, -73.95091299420689
     endPoint: [-73.9670272720601, 40.716778370973536], // Domino Park
-    startZoom: 16.5,
+    startZoom: 15,
     endZoom: 16.5,
-    startPitch: 60,
-    endPitch: 50,
+    startPitch: 50,
+    endPitch: 70,
     startBearing: 80,
-    endBearing: 100
+    endBearing: 120
   },
   "brooklynbrg": {
     startPoint: [-73.98956310137292, 40.70317490115295], // DUMBO
-    endPoint: [-73.99751889066016, 40.701512113419184], // Brooklyn Bridge Park
-    startZoom: 17,
-    endZoom: 17,
+    endPoint: [-73.99927238020165, 40.70386660489816], // Brooklyn Bridge Park 40.70386660489816, -73.99927238020165
+    startZoom: 16.5,
+    endZoom: 17.6,
     startPitch: 80,
-    endPitch: 60,
-    startBearing: 170,
-    endBearing: 140
+    endPitch: 95,
+    startBearing: 180,
+    endBearing: -50
   }
 };
 
