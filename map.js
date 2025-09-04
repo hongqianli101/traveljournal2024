@@ -21,11 +21,12 @@ function hexToRgb(hex) {
 /* ---------- Arc color combos ---------- */
 const colorCombos = [
   { source: hexToRgb("#EAEAFF"), target: hexToRgb("#484FFB") },
-  { source: hexToRgb("#F7684E"), target: hexToRgb("#FFD9D3") },
+  { source: hexToRgb("#FFD9D3"), target: hexToRgb("#F7684E") },
 ];
 function getRandomColorCombo() {
   return colorCombos[Math.floor(Math.random() * colorCombos.length)];
 }
+
 
 /* ---------- Route definitions ---------- */
 const routeDefinitions = {
@@ -53,9 +54,9 @@ const routeDefinitions = {
     startPoint: [-73.98956310137292, 40.70317490115295], // DUMBO
     endPoint: [-73.99927238020165, 40.70386660489816], // Brooklyn Bridge Park 40.70386660489816, -73.99927238020165
     startZoom: 16.5,
-    endZoom: 17.6,
+    endZoom: 17.7,
     startPitch: 80,
-    endPitch: 95,
+    endPitch: 180,
     startBearing: 180,
     endBearing: -50
   }
